@@ -1,0 +1,67 @@
+# ===========================
+# Maven
+# ===========================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+*.jar
+*.war
+*.ear
+
+# ===========================
+# IntelliJ IDEA
+# ===========================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.idea/shelf/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+.idea/caches/
+
+# ===========================
+# Spring Boot
+# ===========================
+application-local.yml
+application-local.properties
+*.env
+
+# ===========================
+# Environment / Secrets
+# ===========================
+.env
+.env.*
+secrets/
+*.pem
+*.key
+*.p12
+*.jks
+
+# ===========================
+# Docker
+# ===========================
+docker/postgres_data/
+
+# ===========================
+# Logs
+# ===========================
+logs/
+*.log
+*.log.*
+
+# ===========================
+# OS
+# ===========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===========================
+# VS Code (just in case)
+# ===========================
+.vscode/
